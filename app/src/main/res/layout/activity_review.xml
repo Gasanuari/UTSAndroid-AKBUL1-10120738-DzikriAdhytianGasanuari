@@ -1,0 +1,90 @@
+<!-- Kamis 6 Juni,
+     Dzikri Adhytian Gasanuari,
+     10120738,
+     AKB UL1 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewActivity">
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama:"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/displayNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM:"
+        android:layout_below="@id/displayName"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/displayClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas:"
+        android:layout_below="@id/displayNim"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/displayBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir:"
+        android:layout_below="@id/displayClass"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/displayGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin:"
+        android:layout_below="@id/displayBirthDate"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/displayRelationship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hubungan dengan Anda:"
+        android:layout_below="@id/displayGender"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_below="@id/displayRelationship"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/btnEdit"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
+
+
+
+
+
+
